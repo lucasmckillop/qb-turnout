@@ -8,7 +8,7 @@ author 'peachy#9999'
 shared_script 'config.lua'
 
 client_scripts {
-    'cl_clothing.lua'
+    'cl_turnout.lua'
 }
 
 lua54 'yes'
