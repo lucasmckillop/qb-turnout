@@ -12,3 +12,6 @@ Please adhere to the license attached.
 **Land Down Under Roleplay** (Click Image to join discord)
 
 [<img src="https://cdn.discordapp.com/attachments/896914570839474206/958231912785264710/LDU_smaller.png">](https://discord.gg/kvxTNEzaqZ)
+
+**Hud By CodeM**
+https://discord.gg/zj3QsUfxWs
