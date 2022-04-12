@@ -113,14 +113,6 @@ local turnoutMenu = {
     },
 }
 
-RegisterCommand("refreshcmds", function(source)
-    if QBCore.Functions.HasPermission(source, 'admin') then
-         QBCore.Commands.Refresh(source)
-    else 
-        TriggerClientEvent('QBCore:Notify', source, 'No permission', 'error')
-    end
-end)
-
 RegisterCommand("turnout", function (source, args)
     exports['qb-menu']:openMenu(turnoutMenu)
 end)
