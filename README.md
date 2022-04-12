@@ -4,6 +4,11 @@ qb-turnout is my first ever released FiveM/lua script, you open the menu by simp
 
 Please adhere to the license attached.
 
+**Dependencies**
+[QBCore Framework](https://github.com/qbcore-framework)
+[qb-clothing](https://github.com/qbcore-framework/qb-clothing)
+[qb-menu](https://github.com/qbcore-framework/qb-menu)
+
 **Showcase**
 
 
