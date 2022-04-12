@@ -3,7 +3,7 @@
 
 local QBCore = exports['qb-core']:GetCoreObject()
 
-RegisterNetEvent('qb-clothingcmds:Client:TurnoutOff', function ()
+RegisterNetEvent('qb-turnout:Client:TurnoutOff', function ()
 
     while not HasAnimDictLoaded("clothingtie") do RequestAnimDict("clothingtie") Wait(100) end
 	TaskPlayAnim(PlayerPedId(), "clothingtie", "try_tie_negative_a", 3.0, 3.0, 1200, 51, 0, false, false, false)
@@ -12,7 +12,7 @@ RegisterNetEvent('qb-clothingcmds:Client:TurnoutOff', function ()
     TriggerServerEvent("qb-clothing:loadPlayerSkin") -- LOADING PLAYER'S CLOTHES - Event 2
 end)
 
-RegisterNetEvent('qb-clothingcmds:Client:TurnoutOn', function ()
+RegisterNetEvent('qb-turnout:Client:TurnoutOn', function ()
 
         while not HasAnimDictLoaded("clothingtie") do RequestAnimDict("clothingtie") Wait(100) end
 	TaskPlayAnim(PlayerPedId(), "clothingtie", "try_tie_negative_a", 3.0, 3.0, 1200, 51, 0, false, false, false)
@@ -95,7 +95,7 @@ local turnoutMenu = {
         header = "Turnout Gear On",
         txt = "Puts your turnout gear on",
         params = {
-            event = "qb-clothingcmds:Client:TurnoutOn",
+            event = "qb-turnout:Client:TurnoutOn",
             args = {
                 number = 1,
             }
@@ -105,7 +105,7 @@ local turnoutMenu = {
         header = "Turnout Gear Off",
         txt = "Takes your turnout gear off",
         params = {
-            event = 'qb-clothingcmds:Client:TurnoutOff',
+            event = 'qb-turnout:Client:TurnoutOff',
             args = {
                 number = 1,
             }
