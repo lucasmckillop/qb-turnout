@@ -5,7 +5,9 @@ qb-turnout is my first ever released FiveM/lua script, you open the menu by simp
 Please adhere to the license attached.
 
 **Showcase**
-![turnout](https://cdn.discordapp.com/attachments/942055830952488970/963424805032452116/qb-turnout.gif)
+
+
+![turnout](https://cdn.discordapp.com/attachments/942055830952488970/963426706788593734/ezgif-5-899e98db43.gif)
  
 **Land Down Under Roleplay** (Click Image to join discord)
 
